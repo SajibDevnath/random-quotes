@@ -1,0 +1,27 @@
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: inside,
+);
+
+$large				: 1440px;
+$medium				: 1170px;
+$small				: 768px;
+
+.layout {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+@include susy-media(max-width $small) {
+	#artist {
+	font-size: 40px;
+	}
+
+	#qoute {
+		font-size: 40px;
+	}
+}

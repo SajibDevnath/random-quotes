@@ -1,0 +1,80 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #E04935;
+	font-family: Open sans, "Helvetica Neue", Helvetica, sans-serif;
+	color: white;
+}
+
+h1 {
+	padding-top: 5%;
+}
+
+#quote-box {
+	background: #F1F4DF;
+	color: #010102;
+	padding: 5%;
+	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, .2);
+}
+
+#artist {
+	font-family: Matura MT Script Capitals, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 50px;
+}
+
+#quote {
+	font-family: Perpetua, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 50px;
+}
+
+.button {
+	padding: 5%;
+}
+
+ul.button {
+  display: inline-block;
+  li {
+    display: inline-block;
+    float: left;
+    padding-right: 5px;
+  }
+}
+
+#twitter{
+	font-family: open sans, "Helvetica Neue", Helvetica, sans-serif;
+	width: 50px;
+	height: 40px;
+	font-size: 26px;
+	color: #fff;
+	border: 0;
+	background: #2CAAE1;
+	cursor: pointer;
+	border-radius: 5px;
+	float: right;
+	line-height: 38px;
+  
+}
+
+p a {
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+#newqoute {
+	font-family: Matura MT Script Capitals, "Helvetica Neue", Helvetica, sans-serif;
+	width: 200px;
+	height: 40px;
+	font-size: 22px;
+	color: #fff;
+	border: 0;
+	background: #1A1026;
+	cursor: pointer;
+	border-radius: 5px;
+}
